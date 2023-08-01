@@ -1,3 +1,5 @@
+"use client";
+
 import type { NextPage } from "next";
 import React, { useRef, useState } from "react";
 import * as THREE from "three";
@@ -19,7 +21,7 @@ const Home: NextPage = () => {
         onPointerOut={(event) => setHover(false)}
       >
         <boxGeometry args={[1, 1, 1]} />
-        <meshStandardMaterial color={hovered ? "hotpink" : "orange"} />
+        <meshStandardMaterial color={hovered ? "gold" : "blue"} />
       </mesh>
     );
   };
