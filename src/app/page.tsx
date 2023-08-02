@@ -30,10 +30,7 @@ const Home: NextPage = () => {
     <Canvas
       style={{
         width: 100 + "vw",
-        height: 100 + "vh",
-        position: "fixed",
-        top: 0,
-        left: 0,
+        height: 95 + "vh",
       }}
     >
       <ambientLight />
